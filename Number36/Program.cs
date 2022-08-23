@@ -15,7 +15,7 @@ int[] FillArray(int size, int min, int max)
 }
 Console.Write("Массив от 0 до N. Введите N: ");
 int size = Convert.ToInt32(Console.ReadLine());
-int[] array = FillArray(size, 100, 999);
+int[] array = FillArray(size, -100, 100);
 Console.WriteLine($"[{String.Join(", ", array)}]");
 int sum = 0;
 for (int i = 0; i < size; i++)
